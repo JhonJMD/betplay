@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap/bootstrap.min.js" defer></script>
+    <script src="app.js" type="module" defer></script>
+    <title>Liga BetPlay JS</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="container mt-5">
+        <div class="row justify-content-md-center">
+          <div class="col-2"></div>
+          <div class="col-8 col-md-auto">
+            <div class="card">
+              <div class="card-header">
+                  Gestor de Equipos
+              </div>
+              <div class="card-body">
+                  <h5 class="card-title">Equipos</h5>
+                  <p class="card-text">Aqui puedes agregar los equipos que pertenecen a la liga BetPlay</p>
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nombreEquipo" class="form-label">Nombre del Equipo</label>
+                    <input type="text" class="form-control" name="nombreEquipo" id="nombreEquipo">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="logoEquipo" class="form-label">Logo del Equipo</label>
+                    <input type="text" class="form-control" name="logoEquipo" id="logoEquipo">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="ciudadEquipo" class="form-label">Ciudad</label>
+                    <select name="ciudadEquipo" id="ciudadEquipo" class="form-select">
+                      <option selected>Selecciona una Ciudad</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="nombreTecnico" class="form-label">Nombre del Tecnico</label>
+                    <input type="text" class="form-control" name="nombreTecnico" id="nombreTecnico">
+                  </div>
+                  <div class="col-12">
+                    <div class="card border-primary mb-3">
+                      <div class="card-header">Jugadores</div>
+                      <div class="card-body text-primary">
+                        <h5 class="card-title">Añadir Jugadores</h5>
+                        <p class="card-text">Aquí podras añadir los jugadores de tu plantel deportivo.</p>
+                        <button type="button" class="btn btn-warning" id="addPlayer">+</button>
+                        <div class="container div-detail-player">
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div><div class="col-2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<div class="row">
+  <div>
+
+  </div>
+</div>
